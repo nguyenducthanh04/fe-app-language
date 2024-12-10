@@ -1,0 +1,212 @@
+.home {
+    background: #fffbf4;
+}
+.text {
+    max-width: 580px;
+    width: 100%;
+    margin-top: 120px;
+}
+.text h1 {
+    font-size: 56px;
+    font-weight: bold;
+    transform: rotate(-10deg); /* Góc xoay âm hoặc dương */
+  display: inline-block; /* Đảm bảo thẻ hỗ trợ xoay */
+}
+.banner {
+   display: flex;
+   justify-content: center; 
+   background: #fffbf4;
+}
+.text p {
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+.language-title {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 1px #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    background: white;
+}
+.language-box {
+    margin-top: 30px;
+    cursor: pointer;
+}
+.list-language {
+    width: 300px;
+    height: 150px;
+    background: white;
+    border-radius: 10px;
+}
+.language ul {
+    padding: 15px;
+}
+.link-language{
+    text-decoration: none;
+    color: black;
+}
+.name-language {
+    display: flex;
+    margin-bottom: 15px;
+}
+.name-language p {
+    font-size: 1.3rem;    
+}
+.name-language img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.language-title span {
+    margin-left: 30px;
+}
+.language-title span {
+    margin-right: 10px;
+    font-weight: 500;
+}
+.btn-start {
+    margin-top: 15px;
+}
+/* Thêm hiệu ứng lắc */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
+  
+  /* Style button */
+  .btn-start button {
+      width: 300px;
+      height: 48px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      background: rgb(255, 192, 0) !important;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: all 0.3s ease; /* Thêm hiệu ứng mượt */
+  }
+  
+  /* Hover với hiệu ứng lắc */
+  .btn-start button:hover {
+      animation: shake 0.5s ease-in-out; /* Hiệu ứng lắc */
+      background: rgb(255, 172, 0); /* Thay đổi màu khi hover (tuỳ chọn) */
+  }
+  
+.icon-language-title {
+    margin-right: 20px;
+}
+.image-banner {
+    margin-top: 120px;
+}
+.image img {
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+}
+.how-work-title {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.how-work-title h1 {
+    font-size: 3rem;
+}
+.reason-title {
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.reason-title h1 {
+    font-size: 3rem;
+}
+.list-work {
+    display: flex;
+    justify-content: center;
+}
+.image-work img {
+    width: 300px;
+    height: 600px;
+    margin-right: 100px;
+}
+.text-work ul li {
+    width: 380px;
+    height: 48px;
+    list-style: none;
+    margin-bottom: 30px;
+}
+.text-work ul li span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.btn-click-course {
+    text-align: center;
+    margin-top: 60px;
+}
+.btn-click-course button {
+    width: 360px;
+    height: 62px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 192, 0) !important;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.reason-text {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    width: 200px;
+}
+.reason-list {
+    display: flex;
+    justify-content: center;
+}
+.reason-item {
+    text-align: center;
+}
+.space {
+    margin: 0 30px;
+}
+.feedback {
+    margin-top: 120px;
+}
+.feedback-title {
+    display: flex;
+    justify-content: center;
+}
+.feeback-title-left h1 {
+    font-size: 3rem;
+}
+.feedback-title-right {
+    width: 500px;
+    margin-left: 70px;
+}
+.feedback-title-right h3 {
+    font-size: 1.5rem;
+}
+.avt img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.feedback-list {
+    display: flex;
+    justify-content: center;
+}
+.feedback-item {
+    text-align: center;
+}
+.feedback-text {
+    margin: 20px 0px;
+}
+.feedback-list {
+    margin-top: 120px;
+}

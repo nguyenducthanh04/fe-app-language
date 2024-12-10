@@ -1,0 +1,99 @@
+.nav {
+    background: rgb(255, 192, 0) !important;
+    height: 41px;
+}
+.nav-child {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.select-language {
+    margin-right: 20px;
+}
+.select-language h4 {
+    font-weight: 100;
+}
+.btn-login button{
+    width: 103px;
+    height: 32px;
+    border-radius: 5px;
+    font-weight: bold;
+    /* border: none; */
+    background: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+.nav-bottom {
+    height: 80px;
+    background: #2b3647;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    margin-left: 50px;
+}
+.logo img {
+    width: 90px;
+    height: 60px;  
+}
+.option-link {
+    text-decoration: none;
+    color: white;
+}
+.option {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 480px;
+}
+.option-link h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.btn-start-learn {
+    margin-right: 50px;
+}
+.btn-start-learn button {
+    width: 208px;
+    height: 48px;
+    border-radius: 20px;
+    background: rgb(255, 192, 0);
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: none;
+}
+.language-stack {
+    width: 740px;
+    height: 130px;
+    background: rgb(255, 192, 0) !important;
+    border-radius: 15px;
+}
+.list-language-stack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.language-stack-item {
+    width: 30%;
+    cursor: pointer;
+    border-bottom: solid 1px #adadad;
+}
+.language-item-child {
+    display: flex;
+    /* justify-content: center; */
+    margin-bottom: 10px;
+}
+.language-stack-item p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.language-stack-item img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 12px;
+}

@@ -1,0 +1,55 @@
+.footer {
+    height: 600px;
+    background: #2b3647;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.logo-footer img {
+    width: 90px;
+    height: 60px;
+    margin-top: 30px;
+}
+.btn-start-learn-footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.btn-start-learn-footer button{
+    width: 218px;
+    height: 35px;
+    border-radius: 8px;
+    background: rgb(255, 192, 0) !important;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+}
+.social-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.line {
+    margin: 0 10px;
+}
+.infomation {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.item-info-link {
+    text-decoration: none;
+    color: white;
+}
+.item-info-link li {
+    list-style: none;
+    margin-bottom: 30px;
+}
+.line-info {
+    margin: 0 30px;
+}
+.copy-right {
+    margin-top: 50px;
+}
+.copy-right p {
+    color: white;
+}
