@@ -7,8 +7,8 @@ import anhFlag from "../../images/anh.webp"
 import Tippy from '@tippyjs/react/headless';
 import "./header.css";
 function Header() {
-    const [isVisibleLanguage, setIsVisibleLanguage] = useState(true);
-    const [isVisibleCourse, setIsVisibleCourse] = useState(true);
+    const [isVisibleLanguage, setIsVisibleLanguage] = useState(false);
+    const [isVisibleCourse, setIsVisibleCourse] = useState(false);
     const showLanguage = () => setIsVisibleLanguage(true);
     const hideLanguage = () => setIsVisibleLanguage(false);
     const showCourse = () => setIsVisibleCourse(true);
