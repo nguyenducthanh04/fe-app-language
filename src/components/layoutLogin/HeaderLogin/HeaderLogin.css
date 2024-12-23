@@ -1,0 +1,14 @@
+.nav-bottom {
+    height: 80px;
+    background: #2b3647;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    margin-left: 50px;
+}
+.logo img {
+    width: 90px;
+    height: 60px;  
+}

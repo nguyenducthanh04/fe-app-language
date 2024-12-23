@@ -1,0 +1,73 @@
+.login {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Để tiêu đề và nút xếp theo cột */
+}
+
+.title-login {
+    margin-top: 40px;
+}
+.list-login {
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-login-google {
+    width: 423.2px;
+    height: 40px;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    justify-content: center;
+    
+
+}
+.btn-login-google p {
+    font-size: 15px;
+}
+.icon-google {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+.or {
+    margin-top: 20px;
+}
+.form-password input,
+.form-email input {
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    margin-top: 20px;
+}
+.reset-pass-btn {
+    margin: 20px 0px;
+}
+.reset-pass-link {
+    color: black;
+    text-decoration: none;
+}
+.btn-login-click button{
+    width: 400px;
+    height: 48px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    background: #e7eaf0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.register {
+    margin: 20px 0px;
+}
+.register-link {
+    text-decoration: none;
+    color: black;
+}

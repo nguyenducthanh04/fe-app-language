@@ -1,0 +1,248 @@
+.default {
+    background: #fffbf4;
+}
+.text-default {
+    max-width: 580px;
+    width: 100%;
+    margin-top: 120px;
+}
+.text-default h1 {
+    font-size: 56px;
+    font-weight: bold;
+    transform: rotate(-10deg); /* Góc xoay âm hoặc dương */
+  display: inline-block; /* Đảm bảo thẻ hỗ trợ xoay */
+}
+.banner-default {
+   display: flex;
+   justify-content: center; 
+   background: #fffbf4;
+}
+.text-default p {
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+.language-title {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 1px #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    background: white;
+}
+.language-box {
+    margin-top: 30px;
+    cursor: pointer;
+}
+.list-language {
+    width: 300px;
+    height: 150px;
+    background: white;
+    border-radius: 10px;
+}
+.language ul {
+    padding: 15px;
+}
+.link-language{
+    text-decoration: none;
+    color: black;
+}
+.name-language {
+    display: flex;
+    margin-bottom: 15px;
+}
+.name-language p {
+    font-size: 1.3rem;    
+}
+.name-language img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.language-title span {
+    margin-left: 30px;
+}
+.language-title span {
+    margin-right: 10px;
+    font-weight: 500;
+}
+.btn-start-default {
+    margin-top: 40px;
+}
+/* Thêm hiệu ứng lắc */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
+  
+  /* Style button */
+  .btn-start-default button {
+      width: 300px;
+      height: 48px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      background: rgb(255, 192, 0) !important;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: all 0.3s ease; /* Thêm hiệu ứng mượt */
+  }
+  
+  /* Hover với hiệu ứng lắc */
+  .btn-start-default button:hover {
+      animation: shake 0.5s ease-in-out; /* Hiệu ứng lắc */
+      background: rgb(255, 172, 0); /* Thay đổi màu khi hover (tuỳ chọn) */
+  }
+  
+.icon-language-title {
+    margin-right: 20px;
+}
+.image-banner-default {
+    margin-top: 120px;
+}
+.image-default img {
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+}
+.how-work-title-default {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.how-work-title-default h1 {
+    font-size: 3rem;
+}
+.list-work-default {
+    display: flex;
+    justify-content: center;
+}
+.image-work-default img {
+    width: 300px;
+    height: 600px;
+    margin-right: 100px;
+}
+.text-work-default ul li {
+    width: 520px;
+    height: 48px;
+    list-style: none;
+    margin-bottom: 30px;
+}
+.text-work-default ul li span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.space-default {
+    margin: 0 30px;
+}
+.feedback-default {
+    margin-top: 120px;
+}
+.feedback-title-default {
+    display: flex;
+    justify-content: center;
+}
+.feeback-title-left-default h1 {
+    font-size: 3rem;
+}
+.feedback-title-right-default {
+    width: 500px;
+    margin-left: 70px;
+}
+.feedback-title-right-default h3 {
+    font-size: 1.5rem;
+}
+.avt-default img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.feedback-list-default {
+    display: flex;
+    justify-content: center;
+}
+.feedback-item-default {
+    text-align: center;
+    margin: 0px 35px;
+}
+.feedback-text-default {
+    margin: 20px 0px;
+}
+.feedback-list-default {
+    margin-top: 120px;
+}
+.about {
+    height: 500px;
+    background: #2b3647;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 150px 0px;
+}
+.about-text {
+    width: 700px;
+}
+.about-text h1 {
+    font-size: 3.4rem;
+}
+.about-0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e2e2e2;
+    height: 500px;
+    margin-top: 150px;
+}
+.about-0 img {
+    width: 330px;
+    height: 240px;
+}
+.ab-0-text {
+    width: 600px;
+    margin-left: 60px;
+}
+.ab-0-text p {
+    color: red;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.ab-0-text span {
+    color: black;
+    font-size: 2rem;
+}
+.practice {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.practice-text {
+    width: 600px;
+}
+.practice-text h2{
+    color: #009fbb;
+    margin-bottom: 20px;
+}
+.practice-text span {
+    font-size: 1.2rem;
+}
+.practice-img img {
+    width: 370px;
+    height: 250px;
+}
+.slogan {
+    height: 200px;
+    background: rgb(255, 192, 0) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}

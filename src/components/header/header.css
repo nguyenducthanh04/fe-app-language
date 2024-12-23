@@ -15,6 +15,10 @@
 .select-language h4 {
     font-weight: 100;
 }
+.btn-login-redirect {
+    text-decoration: none;
+    color: black;
+}
 .btn-login button{
     width: 103px;
     height: 32px;
@@ -36,7 +40,8 @@
 }
 .logo img {
     width: 90px;
-    height: 60px;  
+    height: 60px; 
+    border-radius: 10px; 
 }
 .option-link {
     text-decoration: none;
@@ -71,29 +76,96 @@
     background: rgb(255, 192, 0) !important;
     border-radius: 15px;
 }
+.list-language-stack-mobile,
 .list-language-stack {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
+.language-stack-item-mobile,
 .language-stack-item {
     width: 30%;
     cursor: pointer;
     border-bottom: solid 1px #adadad;
 }
+.language-item-child-mobile,
 .language-item-child {
     display: flex;
-    /* justify-content: center; */
     margin-bottom: 10px;
 }
-.language-stack-item p {
+.link-learn-language {
     font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
     font-weight: 500;
 }
+.language-stack-item-mobile img,
 .language-stack-item img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     margin-right: 12px;
 }
+
+/*Responsive*/
+
+.icon-bar,
+.icon-time {
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+}
+.mobile-menu {
+    position: absolute;
+    z-index: 10;
+    background: rgb(255, 192, 0);
+    width: 100%;
+    height: auto;
+}
+.option-mobile {
+    /* margin-top: 30px; */
+}
+.option-mobile ul li p{
+    font-size: 1.4rem;
+    font-weight: bold;
+    /* margin-bottom: 30px;
+    margin-left: 30px; */
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1150px) {
+    .nav {
+     display: none;
+    }
+    .option {
+     display: none;
+    }
+    .btn-start-learn {
+     margin-right: 0px;
+    }
+    .btn-start-learn button {
+     width: 198px;
+     height: 38px;
+     font-size: 1.2rem; 
+     border-radius: 10px;  
+    }
+    .menu-icon {
+     display: block;
+    }
+    .logo {
+     padding: 20px;
+    }
+ }
+ 
+ @media (min-width: 1151px) {
+     .menu-icon {
+         display: none;
+     }
+     .mobile-menu {
+        display: none;
+     }
+ }
